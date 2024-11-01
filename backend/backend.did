@@ -1,0 +1,7 @@
+service : {
+  list: () -> (vec record {
+                     text;
+                     text;
+                   }) query;
+  store: (text, text) -> ();
+}
